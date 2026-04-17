@@ -1,0 +1,715 @@
+State,Year,Value,COVID
+Alabama,2000,1,0
+Alabama,2002,1,0
+Alabama,2004,1,0
+Alabama,2006,1,0
+Alabama,2008,1,0
+Alabama,2010,1,0
+Alabama,2012,1,0
+Alabama,2014,1,0
+Alabama,2016,1,0
+Alabama,2018,1,0
+Alabama,2020,3,1
+Alabama,2022,1,0
+Alabama,2024,1,0
+Alabama,2026,1,0
+Alaska,2000,3,0
+Alaska,2002,3,0
+Alaska,2004,3,0
+Alaska,2006,3,0
+Alaska,2008,3,0
+Alaska,2010,3,0
+Alaska,2012,3,0
+Alaska,2014,3,0
+Alaska,2016,3,0
+Alaska,2018,3,0
+Alaska,2020,3,0
+Alaska,2022,3,0
+Alaska,2024,3,0
+Alaska,2026,3,0
+Arizona,2000,3,0
+Arizona,2002,3,0
+Arizona,2004,3,0
+Arizona,2006,3,0
+Arizona,2008,3,0
+Arizona,2010,3,0
+Arizona,2012,3,0
+Arizona,2014,3,0
+Arizona,2016,3,0
+Arizona,2018,3,0
+Arizona,2020,3,0
+Arizona,2022,3,0
+Arizona,2024,3,0
+Arizona,2026,3,0
+Arkansas,2000,2,0
+Arkansas,2002,2,0
+Arkansas,2004,2,0
+Arkansas,2006,2,0
+Arkansas,2008,2,0
+Arkansas,2010,2,0
+Arkansas,2012,2,0
+Arkansas,2014,2,0
+Arkansas,2016,2,0
+Arkansas,2018,2,0
+Arkansas,2020,3,1
+Arkansas,2022,2,0
+Arkansas,2024,2,0
+Arkansas,2026,2,0
+California,2000,3,0
+California,2002,3,0
+California,2004,3,0
+California,2006,3,0
+California,2008,3,0
+California,2010,3,0
+California,2012,3,0
+California,2014,3,0
+California,2016,3,0
+California,2018,3,0
+California,2020,3,0
+California,2022,3,0
+California,2024,3,0
+California,2026,3,0
+Colorado,2000,3,0
+Colorado,2002,3,0
+Colorado,2004,3,0
+Colorado,2006,3,0
+Colorado,2008,3,0
+Colorado,2010,3,0
+Colorado,2012,3,0
+Colorado,2014,3,0
+Colorado,2016,3,0
+Colorado,2018,3,0
+Colorado,2020,3,0
+Colorado,2022,3,0
+Colorado,2024,3,0
+Colorado,2026,3,0
+Connecticut,2000,1,0
+Connecticut,2002,1,0
+Connecticut,2004,1,0
+Connecticut,2006,1,0
+Connecticut,2008,1,0
+Connecticut,2010,1,0
+Connecticut,2012,1,0
+Connecticut,2014,1,0
+Connecticut,2016,1,0
+Connecticut,2018,1,0
+Connecticut,2020,3,1
+Connecticut,2022,3,1
+Connecticut,2024,2,0
+Connecticut,2026,2,0
+District of Columbia,2000,1,0
+District of Columbia,2002,1,0
+District of Columbia,2004,1,0
+District of Columbia,2006,1,0
+District of Columbia,2008,1,0
+District of Columbia,2010,3,0
+District of Columbia,2012,3,0
+District of Columbia,2014,3,0
+District of Columbia,2016,3,0
+District of Columbia,2018,3,0
+District of Columbia,2020,3,0
+District of Columbia,2022,3,0
+District of Columbia,2024,3,0
+District of Columbia,2026,3,0
+Delaware,2000,1,0
+Delaware,2002,1,0
+Delaware,2004,1,0
+Delaware,2006,1,0
+Delaware,2008,1,0
+Delaware,2010,1,0
+Delaware,2012,1,0
+Delaware,2014,1,0
+Delaware,2016,1,0
+Delaware,2018,1,0
+Delaware,2020,3,1
+Delaware,2022,2,0
+Delaware,2024,2,0
+Delaware,2026,2,0
+Florida,2000,1,0
+Florida,2002,3,0
+Florida,2004,3,0
+Florida,2006,3,0
+Florida,2008,3,0
+Florida,2010,3,0
+Florida,2012,3,0
+Florida,2014,3,0
+Florida,2016,3,0
+Florida,2018,3,0
+Florida,2020,3,0
+Florida,2022,3,0
+Florida,2024,3,0
+Florida,2026,3,0
+Georgia,2000,1,0
+Georgia,2002,1,0
+Georgia,2004,2,0
+Georgia,2006,3,0
+Georgia,2008,3,0
+Georgia,2010,3,0
+Georgia,2012,3,0
+Georgia,2014,3,0
+Georgia,2016,3,0
+Georgia,2018,3,0
+Georgia,2020,3,0
+Georgia,2022,3,0
+Georgia,2024,3,0
+Georgia,2026,3,0
+Hawaii,2000,3,0
+Hawaii,2002,3,0
+Hawaii,2004,3,0
+Hawaii,2006,3,0
+Hawaii,2008,3,0
+Hawaii,2010,3,0
+Hawaii,2012,3,0
+Hawaii,2014,3,0
+Hawaii,2016,3,0
+Hawaii,2018,3,0
+Hawaii,2020,3,0
+Hawaii,2022,3,0
+Hawaii,2024,3,0
+Hawaii,2026,3,0
+Idaho,2000,3,0
+Idaho,2002,3,0
+Idaho,2004,3,0
+Idaho,2006,3,0
+Idaho,2008,3,0
+Idaho,2010,3,0
+Idaho,2012,3,0
+Idaho,2014,3,0
+Idaho,2016,3,0
+Idaho,2018,3,0
+Idaho,2020,3,0
+Idaho,2022,3,0
+Idaho,2024,3,0
+Idaho,2026,3,0
+Illinois,2000,1,0
+Illinois,2002,1,0
+Illinois,2004,1,0
+Illinois,2006,2,0
+Illinois,2008,2,0
+Illinois,2010,3,0
+Illinois,2012,3,0
+Illinois,2014,3,0
+Illinois,2016,3,0
+Illinois,2018,3,0
+Illinois,2020,3,0
+Illinois,2022,3,0
+Illinois,2024,3,0
+Illinois,2026,3,0
+Indiana,2000,1,0
+Indiana,2002,1,0
+Indiana,2004,2,0
+Indiana,2006,2,0
+Indiana,2008,2,0
+Indiana,2010,2,0
+Indiana,2012,2,0
+Indiana,2014,2,0
+Indiana,2016,2,0
+Indiana,2018,2,0
+Indiana,2020,2,0
+Indiana,2022,2,0
+Indiana,2024,2,0
+Indiana,2026,2,0
+Iowa,2000,3,0
+Iowa,2002,3,0
+Iowa,2004,3,0
+Iowa,2006,3,0
+Iowa,2008,3,0
+Iowa,2010,3,0
+Iowa,2012,3,0
+Iowa,2014,3,0
+Iowa,2016,3,0
+Iowa,2018,3,0
+Iowa,2020,3,0
+Iowa,2022,3,0
+Iowa,2024,3,0
+Iowa,2026,3,0
+Kansas,2000,3,0
+Kansas,2002,3,0
+Kansas,2004,3,0
+Kansas,2006,3,0
+Kansas,2008,3,0
+Kansas,2010,3,0
+Kansas,2012,3,0
+Kansas,2014,3,0
+Kansas,2016,3,0
+Kansas,2018,3,0
+Kansas,2020,3,0
+Kansas,2022,3,0
+Kansas,2024,3,0
+Kansas,2026,3,0
+Kentucky,2000,1,0
+Kentucky,2002,1,0
+Kentucky,2004,1,0
+Kentucky,2006,1,0
+Kentucky,2008,1,0
+Kentucky,2010,1,0
+Kentucky,2012,1,0
+Kentucky,2014,1,0
+Kentucky,2016,1,0
+Kentucky,2018,1,0
+Kentucky,2020,3,1
+Kentucky,2022,2,0
+Kentucky,2024,2,0
+Kentucky,2026,2,0
+Louisiana,2000,1,0
+Louisiana,2002,1,0
+Louisiana,2004,1,0
+Louisiana,2006,2,0
+Louisiana,2008,2,0
+Louisiana,2010,2,0
+Louisiana,2012,2,0
+Louisiana,2014,2,0
+Louisiana,2016,2,0
+Louisiana,2018,2,0
+Louisiana,2020,2,0
+Louisiana,2022,2,0
+Louisiana,2024,2,0
+Louisiana,2026,2,0
+Maine,2000,3,0
+Maine,2002,3,0
+Maine,2004,3,0
+Maine,2006,3,0
+Maine,2008,3,0
+Maine,2010,3,0
+Maine,2012,3,0
+Maine,2014,3,0
+Maine,2016,3,0
+Maine,2018,3,0
+Maine,2020,3,0
+Maine,2022,3,0
+Maine,2024,3,0
+Maine,2026,3,0
+Maryland,2000,1,0
+Maryland,2002,1,0
+Maryland,2004,1,0
+Maryland,2006,3,0
+Maryland,2008,3,0
+Maryland,2010,3,0
+Maryland,2012,3,0
+Maryland,2014,3,0
+Maryland,2016,3,0
+Maryland,2018,3,0
+Maryland,2020,3,0
+Maryland,2022,3,0
+Maryland,2024,3,0
+Maryland,2026,3,0
+Massachusetts,2000,1,0
+Massachusetts,2002,1,0
+Massachusetts,2004,1,0
+Massachusetts,2006,1,0
+Massachusetts,2008,1,0
+Massachusetts,2010,1,0
+Massachusetts,2012,1,0
+Massachusetts,2014,1,0
+Massachusetts,2016,2,0
+Massachusetts,2018,2,0
+Massachusetts,2020,3,1
+Massachusetts,2022,3,0
+Massachusetts,2024,3,0
+Massachusetts,2026,3,0
+Michigan,2000,1,0
+Michigan,2002,1,0
+Michigan,2004,1,0
+Michigan,2006,1,0
+Michigan,2008,1,0
+Michigan,2010,1,0
+Michigan,2012,1,0
+Michigan,2014,1,0
+Michigan,2016,1,0
+Michigan,2018,1,0
+Michigan,2020,3,0
+Michigan,2022,3,0
+Michigan,2024,3,0
+Michigan,2026,3,0
+Minnesota,2000,1,0
+Minnesota,2002,1,0
+Minnesota,2004,1,0
+Minnesota,2006,1,0
+Minnesota,2008,1,0
+Minnesota,2010,1,0
+Minnesota,2012,1,0
+Minnesota,2014,3,0
+Minnesota,2016,3,0
+Minnesota,2018,3,0
+Minnesota,2020,3,0
+Minnesota,2022,3,0
+Minnesota,2024,3,0
+Minnesota,2026,3,0
+Mississippi,2000,1,0
+Mississippi,2002,1,0
+Mississippi,2004,1,0
+Mississippi,2006,1,0
+Mississippi,2008,1,0
+Mississippi,2010,1,0
+Mississippi,2012,1,0
+Mississippi,2014,1,0
+Mississippi,2016,1,0
+Mississippi,2018,1,0
+Mississippi,2020,1,0
+Mississippi,2022,1,0
+Mississippi,2024,1,0
+Mississippi,2026,1,0
+Missouri,2000,1,0
+Missouri,2002,1,0
+Missouri,2004,1,0
+Missouri,2006,1,0
+Missouri,2008,1,0
+Missouri,2010,1,0
+Missouri,2012,1,0
+Missouri,2014,1,0
+Missouri,2016,1,0
+Missouri,2018,1,0
+Missouri,2020,3,1
+Missouri,2022,2,0
+Missouri,2024,2,0
+Missouri,2026,2,0
+Montana,2000,3,0
+Montana,2002,3,0
+Montana,2004,3,0
+Montana,2006,3,0
+Montana,2008,3,0
+Montana,2010,3,0
+Montana,2012,3,0
+Montana,2014,3,0
+Montana,2016,3,0
+Montana,2018,3,0
+Montana,2020,3,0
+Montana,2022,3,0
+Montana,2024,3,0
+Montana,2026,3,0
+Nebraska,2000,3,0
+Nebraska,2002,3,0
+Nebraska,2004,3,0
+Nebraska,2006,3,0
+Nebraska,2008,3,0
+Nebraska,2010,3,0
+Nebraska,2012,3,0
+Nebraska,2014,3,0
+Nebraska,2016,3,0
+Nebraska,2018,3,0
+Nebraska,2020,3,0
+Nebraska,2022,3,0
+Nebraska,2024,3,0
+Nebraska,2026,3,0
+Nevada,2000,3,0
+Nevada,2002,3,0
+Nevada,2004,3,0
+Nevada,2006,3,0
+Nevada,2008,3,0
+Nevada,2010,3,0
+Nevada,2012,3,0
+Nevada,2014,3,0
+Nevada,2016,3,0
+Nevada,2018,3,0
+Nevada,2020,3,0
+Nevada,2022,3,0
+Nevada,2024,3,0
+Nevada,2026,3,0
+New Hampshire,2000,1,0
+New Hampshire,2002,1,0
+New Hampshire,2004,1,0
+New Hampshire,2006,1,0
+New Hampshire,2008,1,0
+New Hampshire,2010,1,0
+New Hampshire,2012,1,0
+New Hampshire,2014,1,0
+New Hampshire,2016,1,0
+New Hampshire,2018,1,0
+New Hampshire,2020,3,1
+New Hampshire,2022,1,0
+New Hampshire,2024,1,0
+New Hampshire,2026,1,0
+New Jersey,2000,1,0
+New Jersey,2002,1,0
+New Jersey,2004,1,0
+New Jersey,2006,3,0
+New Jersey,2008,3,0
+New Jersey,2010,3,0
+New Jersey,2012,3,0
+New Jersey,2014,3,0
+New Jersey,2016,3,0
+New Jersey,2018,3,0
+New Jersey,2020,3,0
+New Jersey,2022,3,0
+New Jersey,2024,3,0
+New Jersey,2026,3,0
+New Mexico,2000,3,0
+New Mexico,2002,3,0
+New Mexico,2004,3,0
+New Mexico,2006,3,0
+New Mexico,2008,3,0
+New Mexico,2010,3,0
+New Mexico,2012,3,0
+New Mexico,2014,3,0
+New Mexico,2016,3,0
+New Mexico,2018,3,0
+New Mexico,2020,3,0
+New Mexico,2022,3,0
+New Mexico,2024,3,0
+New Mexico,2026,3,0
+New York,2000,1,0
+New York,2002,1,0
+New York,2004,1,0
+New York,2006,1,0
+New York,2008,1,0
+New York,2010,1,0
+New York,2012,1,0
+New York,2014,1,0
+New York,2016,1,0
+New York,2018,1,0
+New York,2020,3,1
+New York,2022,3,1
+New York,2024,3,0
+New York,2026,3,0
+North Carolina,2000,3,0
+North Carolina,2002,3,0
+North Carolina,2004,3,0
+North Carolina,2006,3,0
+North Carolina,2008,3,0
+North Carolina,2010,3,0
+North Carolina,2012,3,0
+North Carolina,2014,3,0
+North Carolina,2016,3,0
+North Carolina,2018,3,0
+North Carolina,2020,3,0
+North Carolina,2022,3,0
+North Carolina,2024,3,0
+North Carolina,2026,3,0
+North Dakota,2000,3,0
+North Dakota,2002,3,0
+North Dakota,2004,3,0
+North Dakota,2006,3,0
+North Dakota,2008,3,0
+North Dakota,2010,3,0
+North Dakota,2012,3,0
+North Dakota,2014,3,0
+North Dakota,2016,3,0
+North Dakota,2018,3,0
+North Dakota,2020,3,0
+North Dakota,2022,3,0
+North Dakota,2024,3,0
+North Dakota,2026,3,0
+Ohio,2000,1,0
+Ohio,2002,1,0
+Ohio,2004,1,0
+Ohio,2006,3,0
+Ohio,2008,3,0
+Ohio,2010,3,0
+Ohio,2012,3,0
+Ohio,2014,3,0
+Ohio,2016,3,0
+Ohio,2018,3,0
+Ohio,2020,3,0
+Ohio,2022,3,0
+Ohio,2024,3,0
+Ohio,2026,3,0
+Oklahoma,2000,3,0
+Oklahoma,2002,3,0
+Oklahoma,2004,3,0
+Oklahoma,2006,3,0
+Oklahoma,2008,3,0
+Oklahoma,2010,3,0
+Oklahoma,2012,3,0
+Oklahoma,2014,3,0
+Oklahoma,2016,3,0
+Oklahoma,2018,3,0
+Oklahoma,2020,3,0
+Oklahoma,2022,3,0
+Oklahoma,2024,3,0
+Oklahoma,2026,3,0
+Oregon,2000,3,0
+Oregon,2002,3,0
+Oregon,2004,3,0
+Oregon,2006,3,0
+Oregon,2008,3,0
+Oregon,2010,3,0
+Oregon,2012,3,0
+Oregon,2014,3,0
+Oregon,2016,3,0
+Oregon,2018,3,0
+Oregon,2020,3,0
+Oregon,2022,3,0
+Oregon,2024,3,0
+Oregon,2026,3,0
+Pennsylvania,2000,1,0
+Pennsylvania,2002,1,0
+Pennsylvania,2004,1,0
+Pennsylvania,2006,1,0
+Pennsylvania,2008,1,0
+Pennsylvania,2010,1,0
+Pennsylvania,2012,1,0
+Pennsylvania,2014,1,0
+Pennsylvania,2016,1,0
+Pennsylvania,2018,1,0
+Pennsylvania,2020,3,0
+Pennsylvania,2022,3,0
+Pennsylvania,2024,3,0
+Pennsylvania,2026,3,0
+Rhode Island,2000,1,0
+Rhode Island,2002,1,0
+Rhode Island,2004,1,0
+Rhode Island,2006,1,0
+Rhode Island,2008,1,0
+Rhode Island,2010,1,0
+Rhode Island,2012,3,0
+Rhode Island,2014,3,0
+Rhode Island,2016,3,0
+Rhode Island,2018,3,0
+Rhode Island,2020,3,0
+Rhode Island,2022,3,0
+Rhode Island,2024,3,0
+Rhode Island,2026,3,0
+South Carolina,2000,1,0
+South Carolina,2002,1,0
+South Carolina,2004,1,0
+South Carolina,2006,1,0
+South Carolina,2008,1,0
+South Carolina,2010,1,0
+South Carolina,2012,1,0
+South Carolina,2014,1,0
+South Carolina,2016,1,0
+South Carolina,2018,1,0
+South Carolina,2020,3,1
+South Carolina,2022,2,0
+South Carolina,2024,2,0
+South Carolina,2026,2,0
+South Dakota,2000,1,0
+South Dakota,2002,1,0
+South Dakota,2004,3,0
+South Dakota,2006,3,0
+South Dakota,2008,3,0
+South Dakota,2010,3,0
+South Dakota,2012,3,0
+South Dakota,2014,3,0
+South Dakota,2016,3,0
+South Dakota,2018,3,0
+South Dakota,2020,3,0
+South Dakota,2022,3,0
+South Dakota,2024,3,0
+South Dakota,2026,3,0
+Tennessee,2000,2,0
+Tennessee,2002,2,0
+Tennessee,2004,2,0
+Tennessee,2006,2,0
+Tennessee,2008,2,0
+Tennessee,2010,2,0
+Tennessee,2012,2,0
+Tennessee,2014,2,0
+Tennessee,2016,2,0
+Tennessee,2018,2,0
+Tennessee,2020,2,0
+Tennessee,2022,2,0
+Tennessee,2024,2,0
+Tennessee,2026,2,0
+Texas,2000,2,0
+Texas,2002,2,0
+Texas,2004,2,0
+Texas,2006,2,0
+Texas,2008,2,0
+Texas,2010,2,0
+Texas,2012,2,0
+Texas,2014,2,0
+Texas,2016,2,0
+Texas,2018,2,0
+Texas,2020,2,0
+Texas,2022,2,0
+Texas,2024,2,0
+Texas,2026,2,0
+Utah,2000,1,0
+Utah,2002,1,0
+Utah,2004,3,0
+Utah,2006,3,0
+Utah,2008,3,0
+Utah,2010,3,0
+Utah,2012,3,0
+Utah,2014,3,0
+Utah,2016,3,0
+Utah,2018,3,0
+Utah,2020,3,0
+Utah,2022,3,0
+Utah,2024,3,0
+Utah,2026,3,0
+Vermont,2000,3,0
+Vermont,2002,3,0
+Vermont,2004,3,0
+Vermont,2006,3,0
+Vermont,2008,3,0
+Vermont,2010,3,0
+Vermont,2012,3,0
+Vermont,2014,3,0
+Vermont,2016,3,0
+Vermont,2018,3,0
+Vermont,2020,3,0
+Vermont,2022,3,0
+Vermont,2024,3,0
+Vermont,2026,3,0
+Virginia,2000,1,0
+Virginia,2002,1,0
+Virginia,2004,1,0
+Virginia,2006,1,0
+Virginia,2008,1,0
+Virginia,2010,1,0
+Virginia,2012,1,0
+Virginia,2014,1,0
+Virginia,2016,1,0
+Virginia,2018,1,0
+Virginia,2020,3,0
+Virginia,2022,3,0
+Virginia,2024,3,0
+Virginia,2026,3,0
+Washington,2000,3,0
+Washington,2002,3,0
+Washington,2004,3,0
+Washington,2006,3,0
+Washington,2008,3,0
+Washington,2010,3,0
+Washington,2012,3,0
+Washington,2014,3,0
+Washington,2016,3,0
+Washington,2018,3,0
+Washington,2020,3,0
+Washington,2022,3,0
+Washington,2024,3,0
+Washington,2026,3,0
+West Virginia,2000,1,0
+West Virginia,2002,2,0
+West Virginia,2004,2,0
+West Virginia,2006,2,0
+West Virginia,2008,2,0
+West Virginia,2010,2,0
+West Virginia,2012,2,0
+West Virginia,2014,2,0
+West Virginia,2016,2,0
+West Virginia,2018,2,0
+West Virginia,2020,3,1
+West Virginia,2022,2,0
+West Virginia,2024,2,0
+West Virginia,2026,2,0
+Wisconsin,2000,3,0
+Wisconsin,2002,3,0
+Wisconsin,2004,3,0
+Wisconsin,2006,3,0
+Wisconsin,2008,3,0
+Wisconsin,2010,3,0
+Wisconsin,2012,3,0
+Wisconsin,2014,3,0
+Wisconsin,2016,3,0
+Wisconsin,2018,3,0
+Wisconsin,2020,3,0
+Wisconsin,2022,3,0
+Wisconsin,2024,3,0
+Wisconsin,2026,3,0
+Wyoming,2000,3,0
+Wyoming,2002,3,0
+Wyoming,2004,3,0
+Wyoming,2006,3,0
+Wyoming,2008,3,0
+Wyoming,2010,3,0
+Wyoming,2012,3,0
+Wyoming,2014,3,0
+Wyoming,2016,3,0
+Wyoming,2018,3,0
+Wyoming,2020,3,0
+Wyoming,2022,3,0
+Wyoming,2024,3,0
+Wyoming,2026,3,0
