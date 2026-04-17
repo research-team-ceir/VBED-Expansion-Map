@@ -55,9 +55,9 @@ var xScale = d3.scaleLinear()
 var policyScale = d3.scaleOrdinal()
     .domain([0, 1, 2])
     .range([
-        "Early In-Person and Mail Voting: ",
-        "Early In-Person Voting: ",
-        "No Early In-Person or Mail Voting: "
+        "Early in-person and mail voting: ",
+        "Early in-person voting: ",
+        "No early in-person or mail voting: "
     ]);
 
 var bodyWidth = document.getElementsByTagName("body")[0].getBoundingClientRect().width;
