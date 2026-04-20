@@ -5,7 +5,8 @@ d3.select("body")
     .style("display", "grid")
     .style("max-width", "666px")
     .style("margin-left", "auto")
-    .style("margin-right", "auto");
+    .style("margin-right", "auto")
+    .style("font-family", "'Source Serif 4', serif");
 
 d3.select("#vbed-map")
     .append("h1")
@@ -88,12 +89,12 @@ legendText = legend.append("g")
             subtitle: "available to all voters."
         },
         {
-            text: "Option to vote early in-person available to all voters.",
-            subtitle: "Eligible reason required to vote by mail."
+            text: "Option to vote early in-person available to all",
+            subtitle: "voters. Eligible reason required to vote by mail."
         },
         {
-            text:"No early in-person voting option available to all voters.",
-            subtitle: "Eligible reason required to vote by mail."
+            text:"No early in-person voting option available to all",
+            subtitle: "voters. Eligible reason required to vote by mail."
         }
     ])
     .enter()
