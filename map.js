@@ -30,11 +30,6 @@ var yearList = [
 var width = 666;
 var height = 750;
 
-var margin = {
-    left: 20,
-    right: 20
-}
-
 var svg = d3.select("#vbed-map")
   .append("svg")
   .attr("width", "100%")
@@ -50,7 +45,7 @@ var abbColorScale = d3.scaleOrdinal()
 
 var xScale = d3.scaleLinear()
     .domain([2000, 2026])
-    .range([65, width-margin.right]);
+    .range([65, width-20]);
 
 var policyScale = d3.scaleOrdinal()
     .domain([0, 1, 2])
@@ -60,12 +55,11 @@ var policyScale = d3.scaleOrdinal()
         "No early in-person or mail voting: "
     ]);
 
-var bodyWidth = document.getElementsByTagName("body")[0].getBoundingClientRect().width;
-
-
 var listScale = d3.scaleOrdinal()
     .domain([0, 1, 2])
     .range(["Green.png", "Yellow.png", "Red.png"])
+
+var bodyWidth = document.getElementsByTagName("body")[0].getBoundingClientRect().width;
 
 // #endregion
 
@@ -280,7 +274,7 @@ var playButton = svg.append("g")
     .append("path")
         .attr("id", "play")
         .attr("d", "M0,0 L8,5 L0,10 L0,0")
-        .attr("fill", "#bebebe")
+        .attr("fill", "#243a76")
         .attr("transform", "translate(10, 10.1) scale(1.8)")
     .on("mouseover", function(event, d) {
         d3.select(this)
@@ -642,10 +636,9 @@ Promise.all([
     // timer needs to be initialized so when the year options are clicked,
     // it has something to reference and stop
     let timer = d3.interval(timerFunc, 2500);
-    timer.stop()
 
     // boolean to keep track of whether the animation is playing
-    let playing = false;
+    let playing = true;
 
     // play button behavior when clicked
     playButton
