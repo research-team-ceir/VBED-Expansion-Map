@@ -1,4 +1,10 @@
 // #region SETUP
+function center(selection, y) {
+    var width = selection.node().getBBox().width;
+    var x = selection.node().getBBox().x;
+    selection.attr("transform", "translate(" + ((666-width)/2 - x) + "," + y + ")");
+};
+
 d3.select("body")
     .append("div")
     .attr("id", "vbed-map")
@@ -10,7 +16,7 @@ d3.select("body")
 
 d3.select("#vbed-map")
     .append("h1")
-    .text("Options to Vote Before Election Day, 2000-2026")
+    .text("Options to Vote Before Election Day, 2000-2026");
 
 var yearList = [
     {option: "All Years",
@@ -26,7 +32,7 @@ var yearList = [
         index: 2,
         years: [{year: 2000}, {year: 2004}, {year: 2008},
             {year: 2012}, {year: 2016}, {year: 2020}, {year: 2024}]}
-]
+    ];
 
 var width = 666;
 var height = 750;
@@ -58,16 +64,14 @@ var policyScale = d3.scaleOrdinal()
 
 var listScale = d3.scaleOrdinal()
     .domain([0, 1, 2])
-    .range(["Green.png", "Yellow.png", "Red.png"])
-
-var bodyWidth = document.getElementsByTagName("body")[0].getBoundingClientRect().width;
+    .range(["Green.png", "Yellow.png", "Red.png"]);
 
 // #endregion
 
 // #region LEGEND
 
 var legend = svg.append("g")
-    .attr("id", "legend")
+    .attr("id", "legend");
 
 legend
     .selectAll("rect")
@@ -78,7 +82,7 @@ legend
         .attr("width", 20)
         .attr("height", 20)
         .attr("x", 20)
-        .attr("y", (d, i) => i * 45 + 600)
+        .attr("y", (d, i) => i * 45 + 600);
 
 legendText = legend.append("g")
     .attr("id", "legend-text")
@@ -101,7 +105,7 @@ legendText = legend.append("g")
     .append("text")
         .attr("x", 45)
         .attr("y", (d, i) => i * 45 + 605)
-        .attr("font-size", "11pt")
+        .attr("font-size", "11pt");
 
 legendText.append("tspan")
     .text(d => d.text);
@@ -117,7 +121,7 @@ covidLegend = legend.append("text")
     .attr("x", 45)
     .attr("y", 605 - 30)
     .attr("opacity", 0)
-    .attr("font-size", "10pt")
+    .attr("font-size", "10pt");
 
 // #endregion
 
@@ -128,7 +132,7 @@ var selectionIndex = 0; // tracks which option is selected
 
 // main selection bar
 var selectionContainer = svg.append("g")
-    .attr("id", "selection-container")
+    .attr("id", "selection-container");
 
 var selectionBar = selectionContainer.append("rect")
     .attr("width", 150)
@@ -158,7 +162,7 @@ var selectionBar = selectionContainer.append("rect")
             selectionBarSelected = false;
             selectionTri.attr("fill", "#dbdbdb")
         }
-    })
+    });
 
 // triangle on selection bar to indicate to click
 var selectionTri = selectionContainer.append("path")
@@ -175,7 +179,7 @@ var selectionBarText = selectionContainer.append("text")
     .attr("font-size", "14px");
 
 var selectionOptions = selectionContainer.append("g")
-    .attr("id", "selection-options")
+    .attr("id", "selection-options");
 
 var selections = selectionOptions
     .selectAll("rect")
@@ -220,7 +224,7 @@ var selectionsText = selectionOptions
 
 // #region YEAR TIMELINE
 var yearTimeline = svg.append("g")
-    .attr("id", "year-timeline")
+    .attr("id", "year-timeline");
 
 // rect connecting years
 var yearRect = yearTimeline
@@ -315,11 +319,11 @@ var yearText = d3.select("#vbed-map")
     .append("div")
     .attr("id", "year-text")
     .style("max-width", "666px")
-    .style("text-align", "left")
+    .style("text-align", "left");
 
 var policies = yearText.append("div")
     .attr("id", "policies-text")
-    .append("ul")
+    .append("ul");
 
 // #endregion
 
@@ -385,9 +389,7 @@ Promise.all([
             .classed("noAst", true);
 
     // centering map
-    var mapWidth = d3.select('#map-container').node().getBoundingClientRect().width;
-    var mapx = d3.select('#map-container').node().getBoundingClientRect().x;
-    mapContainer.attr("transform", "translate(" + ((666-mapWidth) / 2 - (mapx-((bodyWidth-666)/2))) + ", 50)")
+    mapContainer.call(center, 50);
 
     // #endregion
 
@@ -416,7 +418,7 @@ Promise.all([
             .attr("x", 0)
             .attr("height", 20)
             .attr("width", 150)
-            .attr("fill", "#bebebe")
+            .attr("fill", "#bebebe");
 
     var bar2 = barChart
         .append("rect")
@@ -424,7 +426,7 @@ Promise.all([
             .attr("x", 0)
             .attr("height", 20)
             .attr("width", 150)
-            .attr("fill", "#bebebe")
+            .attr("fill", "#bebebe");
 
     var bar3 = barChart
         .append("rect")
@@ -432,22 +434,22 @@ Promise.all([
             .attr("x", 0)
             .attr("height", 20)
             .attr("width", 150)
-            .attr("fill", "#bebebe")
+            .attr("fill", "#bebebe");
 
     var barText1 = barChart
         .append("text")
             .attr("y", barScaleY(0) + 15)
-            .attr("x", 0)
+            .attr("x", 0);
 
     var barText2 = barChart
         .append("text")
             .attr("y", barScaleY(1) + 15)
-            .attr("x", 0)
+            .attr("x", 0);
 
     var barText3 = barChart
         .append("text")
             .attr("y", barScaleY(2) + 15)
-            .attr("x", 0)
+            .attr("x", 0);
 
     barChart.append("g")
         .attr("id", "barChart-x-axis")
@@ -456,10 +458,10 @@ Promise.all([
             .attr("y", 0)
             .attr("width", 1)
             .attr("height", 140)
-            .attr("fill", "#555555ff")
+            .attr("fill", "#555555ff");
 
     barChart
-        .attr("transform", "translate (400, 585)")
+        .attr("transform", "translate (400, 585)");
 
     // #endregion
 
@@ -490,13 +492,13 @@ Promise.all([
                         d3.select("#ast-" + tileMap.states[j].abb)
                             .classed("noAst", true)
                             .classed("ast", false);
-                    }
+                    };
 
                     break;
-                }
-            }
+                };
+            };
 
-        }
+        };
 
         // update asterisk
         d3.selectAll(".noAst")
@@ -519,7 +521,7 @@ Promise.all([
                 .transition()
                 .duration(500)
                 .attr("opacity", 0);
-        }
+        };
 
         // update map
         svg.select("#map")
@@ -533,18 +535,18 @@ Promise.all([
         mapAbb
             .transition()
             .duration(750)
-            .attr("fill", d => abbColorScale(d.value))
+            .attr("fill", d => abbColorScale(d.value));
 
         // update circle selection
         d3.selectAll("circle")
             .transition()
             .duration(500)
-            .style("fill", "#bebebe")
+            .style("fill", "#bebebe");
 
         d3.select("#circle-" + inputYear)
             .transition()
             .duration(500)
-            .style("fill", "#243a76")
+            .style("fill", "#243a76");
 
         // update bar chart
         bar1
@@ -615,7 +617,7 @@ Promise.all([
         });
 
         d3.selectAll("li")
-            .style("font-size", "1.25rem")
+            .style("font-size", "1.25rem");
     }
 
     // #endregion
@@ -631,8 +633,8 @@ Promise.all([
         } else { // all
             currYear = (currYear + 1) % 14; 
             updateMap(2000 + currYear * 2);
-        }
-    }
+        };
+    };
 
     // timer needs to be initialized so when the year options are clicked,
     // it has something to reference and stop
