@@ -113,8 +113,10 @@
         {"states": "3 states", "change": "no changes from 2022", "bullets": null}
     ],
     [
-        {"states": "36 states and DC", "change": "no change from 2024", "bullets": null},
-        {"states": "11 states", "change": "no change from 2024", "bullets": null},
+        {"states": "37 states and DC", "change": "increase of 1 state from 2024", "bullets": [
+            "Implemented mail voting: CT"
+        ]},
+        {"states": "10 states", "change": "decrease of 1 state from 2024", "bullets": null},
         {"states": "3 states", "change": "no changes from 2024", "bullets": null}
     ]
 ]}
