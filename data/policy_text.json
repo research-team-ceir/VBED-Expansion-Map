@@ -116,7 +116,9 @@
         {"states": "37 states and DC", "change": "increase of 1 state from 2024", "bullets": [
             "Implemented mail voting: CT"
         ]},
-        {"states": "10 states", "change": "decrease of 1 state from 2024", "bullets": null},
+        {"states": "10 states", "change": "decrease of 1 state from 2024", "bullets": [
+            "Moved to the category above because mail voting was implemented: CT"
+        ]},
         {"states": "3 states", "change": "no changes from 2024", "bullets": null}
     ]
 ]}
